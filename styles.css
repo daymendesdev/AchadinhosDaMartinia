@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FB6F92;
+    color: #FFE5EC;
+    height: 3rem;
+}
+
+header h1{
+    font-size: 15px;
+}
+
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list ul li{
+    padding-right: 1rem;
+}
+
+.nav-list a{
+    color: #FFE5EC;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-list a:hover{
+    color: #f8eef0;
+}
+
+#sobre{
+    margin-top: 5em;
+    text-align: center;
+}
+
+#sobre h1{
+    font-size: 3em;
+    color: #FB6F92;
+}
+
+#sobre p{
+    text-align: justify;
+}
+
+.destaque{
+    color: #FB6F92;
+}
+
+#produtos{
+    margin-top: 5em;
+}
+
+#produtos h1{
+    text-align: center;
+    font-size: 3em;
+    color: #FB6F92;
+}
+
+
+#cards-produtos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 2em;
+        padding: 2em;
+    }
+
+#cards-produtos .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em; 
+    padding: 1em;
+    justify-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #FFF; 
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cards p{
+    color: #333;
+}
+
+.cards a{
+    color: white;
+}
+
+.btn-primary {
+    background-color: #FB6F92;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #f48aa2;
+}
+
+
+/*media query*/
+@media (max-width: 768px) {
+    #cards-produtos {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    #cards-produtos {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/*Rodapé, início*/
+#rodape{
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FB6F92;
+    color: #FFE5EC;
+}

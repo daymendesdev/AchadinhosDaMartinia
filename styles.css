@@ -67,6 +67,10 @@ header h1{
     color: #FB6F92;
 }
 
+a.btn.btn-primary{
+    background-color: #FB6F92;
+    border-color: #FFE5EC;
+}
 
 #cards-produtos{
         display: grid;

@@ -125,7 +125,7 @@ header h1{
 /*media query*/
 @media (max-width: 768px) {
 
-    header{
+    .header-nav header{
         display: none;
     }
     #cards-produtos {
@@ -135,7 +135,7 @@ header h1{
 
 @media (max-width: 480px) {
 
-    header{
+    .header-nav header{
         display: none;
     }
 

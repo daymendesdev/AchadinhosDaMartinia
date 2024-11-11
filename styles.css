@@ -131,10 +131,10 @@ header h1{
 
 @media (max-width: 480px) {
 
-    .header h1{
+    .header{
         display: none;
     }
-    
+
     #cards-produtos {
         grid-template-columns: 1fr;
     }

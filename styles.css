@@ -50,7 +50,7 @@ header h1{
 }
 
 #sobre{
-    margin-top: 5em;
+    margin-top: 3em;
     text-align: center;
 }
 
@@ -68,7 +68,7 @@ header h1{
 }
 
 #produtos{
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 #produtos h1{
@@ -135,6 +135,19 @@ a.btn.btn-primary{
     background-color: #f48aa2;
 }
 
+/*Rodapé, início*/
+#rodape{
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FB6F92;
+    color: #FFE5EC;
+    padding: 0;
+}
+
+/*Fim rodapé*/
+
 
 /*media query*/
 @media (max-width: 768px) {
@@ -158,13 +171,4 @@ a.btn.btn-primary{
     }
 }
 
-
-/*Rodapé, início*/
-#rodape{
-    height: 5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FB6F92;
-    color: #FFE5EC;
-}
+/*Fim media query*/
